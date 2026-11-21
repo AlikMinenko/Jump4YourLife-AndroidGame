@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RulesActivity"
+    android:background="@drawable/secback"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/peralta"
+        android:text="The Rules"
+        android:textColor="#000000"
+        android:id="@+id/tvrules"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:text="Your objective is simple, get as high as you can while avoiding spikes."
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:text="If you touch a spike or fall from the platform, its game over for you."
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:text="You can also die if it takes you too long to jump from one platform to another, you will get consumed by the void."
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:text="When you die your information, name, picture and hight, will be saved and after you press the leaderboard button you will find yourself on the leaderboard."
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:text="If you quit the game before checking yourself in the leaderboard your information won't be saved."
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:text="*While registering you must create a nickname, but you won't be forced to submit a picture."
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:text="Good Luck!"
+        android:fontFamily="@font/cherry_swash"
+        />
+
+</LinearLayout>
+
+
+
+
+</ScrollView>

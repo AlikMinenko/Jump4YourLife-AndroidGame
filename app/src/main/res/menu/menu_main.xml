@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Main Menu"
+        android:id="@+id/menumain"
+        android:orderInCategory="100"
+        />
+    <item
+        android:title="Register and Play"
+        android:id="@+id/menuregister"
+        android:orderInCategory="100"
+        />
+
+    <item
+        android:title="Rules"
+        android:id="@+id/menurules"
+        android:orderInCategory="100"
+        />
+
+
+</menu>
